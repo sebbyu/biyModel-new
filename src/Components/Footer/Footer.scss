@@ -1,0 +1,118 @@
+.bottom {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  #bottom-top {
+    display: flex;
+    justify-content: space-between;
+    #logo {
+      width: 15%;
+      display: flex;
+      font-size: 30px;
+      align-items: center;
+      font-weight: bold;
+      text-align: center;
+      p {
+        cursor: pointer;
+        padding: 0 3px;
+        position: relative;
+        top: -25%;
+      }
+    }
+    #info {
+      width: 70%;
+      display: flex;
+      ul {
+        display: inline;
+        margin: 0 50px;
+        margin-top: 80px;
+        min-width: 170px;
+        li {
+          transition: 0.1s ease;
+          padding: 15px 0;
+          cursor: pointer;
+          list-style: none;
+          &:hover {
+            color: #eaaeea;
+          }
+        }
+      }
+      #little-title {
+        color: grey;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: text;
+      }
+    }
+    #social-media {
+      width: 30px;
+      font-size: 17px;
+      display: flex;
+      p {
+        display: flex;
+        position: relative;
+        top: 15%;
+        height: 35px;
+        width: 35px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 80%;
+        box-shadow: 0px 0px 15px #eaaeea;
+        margin: 20px;
+        cursor: pointer;
+        transition: 0.2s ease;
+        &:hover {
+          transform: scale(1.1);
+          color: #eaaeea;
+        }
+      }
+    }
+  }
+  #bottom-bottom {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 12px;
+    height: 80px;
+    #left {
+      width: 60%;
+      ul {
+        position: relative;
+        top: 30%;
+        li {
+          display: inline;
+          padding: 20px;
+          cursor: pointer;
+          &:hover {
+            color: #eaaeea;
+          }
+        }
+      }
+    }
+    #right {
+      width: 20px;
+      span {
+        position: relative;
+        left: 70%;
+        top: 20%;
+      }
+      #right-top {
+        display: flex;
+        align-items: center;
+        p,li {
+          margin: 0 3px;
+        }
+        li {
+          font-size: 25px;
+        }
+        p {
+          cursor: pointer;
+          &:hover {
+            color: #eaaeea;
+          }
+        }
+      }
+    }
+  }
+}
