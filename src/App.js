@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="page">
       <div className="navbar">
-        <div className="wrap">
+        <div className="navbar-wrap">
           <Navbar />
         </div>
       </div>
@@ -15,7 +15,7 @@ function App() {
         <Home />
       </div>
       <div className="footer">
-        <div className="wrap">
+        <div className="footer-wrap">
           <Footer />
         </div>
       </div>

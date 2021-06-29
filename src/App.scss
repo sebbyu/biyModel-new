@@ -1,14 +1,13 @@
-.wrap {
-  width: 100vw;
-  padding: 0 50px;
-  background-color: black;
-  color: white;
-}
-
 .page {
   .navbar {
     background-color: black;
     color: white;
+    .navbar-wrap {
+      width: 90vw;
+      padding: 0 50px;
+      background-color: black;
+      color: white;
+    }
   }
   .main {
     background: linear-gradient(rgba(0,0,0,0.5),(rgba(0,0,0,0.7))), url('./Assets/neural-network2.jpeg') repeat;
@@ -18,5 +17,11 @@
   .footer {
     background-color: black;
     color: white;
+    .footer-wrap {
+      width: 1200px;
+      margin: 0 auto;
+      background-color: black;
+      color: white;
+    }
   }
 }
