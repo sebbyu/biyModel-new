@@ -1,0 +1,33 @@
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .frame {
+    .top {
+      #title {
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #faebfa;
+        font-weight: 1000;
+        font-size: 80px;
+        letter-spacing: 2px;
+      }
+    }
+    .bottom {
+      background-color: inherit;
+      .buttons {
+        #button {
+          margin: 0 30px;
+          outline: none;
+          border: none;
+          border-radius: 30px;
+          padding: 10px 40px;
+          font-weight: bold;
+          background-color: indianred;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.main {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  .frame {
+    text-align: center;
+    line-height: 50px;
+    img {
+      color: white;
+      width: 200px;
+      height: auto;
+    }
+    #title {
+      font-size: 80px;
+      font-family: Chalkduster, fantasy;
+      color: #faebfa;
+      letter-spacing: 3px;
+    }
+    #subtitle {
+      color: #faebfa;
+      font-weight: bold;
+    }
+    #sentence {
+      color: lightgrey;
+    }
+    #button {
+      background-color: indianred;
+      color: white;
+      font-size: 20px;
+      border-radius: 30px;
+      border: none;
+      font-weight: bold;
+      margin: 20px;
+    }
+  }
+}
