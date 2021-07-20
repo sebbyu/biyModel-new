@@ -1,13 +1,13 @@
-.main {
+.comingsoon-main {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
   margin: auto;
-  .frame {
+  &-frame {
     text-align: center;
-    .title {
+    &--title {
       font-family: sans-serif;
       font-weight: bold;
       font-size: 100px;
@@ -16,11 +16,11 @@
       line-height: 95%;
       padding: 30px;
     }
-    .subtitle {
+    &--subtitle {
       color: #faebfa;
       font-weight: 400;
     }
-    .progress {
+    &--progress {
       height: 25px;
       .progress-bar {
         width: 50%;
@@ -30,7 +30,7 @@
         font-size: 20px;
       }
     }
-    .button {
+    &--button {
       background-color: indianred;
       color: white;
       outline: none;

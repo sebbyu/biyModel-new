@@ -1,11 +1,11 @@
-.bottom {
+.footer-main {
   background-color: black;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  #bottom-top {
+  &--top {
     display: flex;
     justify-content: space-between;
-    #logo {
+    &--logo {
       width: 15%;
       display: flex;
       font-size: 30px;
@@ -19,7 +19,7 @@
         top: -25%;
       }
     }
-    #info {
+    &--info {
       width: 70%;
       display: flex;
       ul {
@@ -44,7 +44,7 @@
         cursor: text;
       }
     }
-    #social-media {
+    &--social-media {
       width: 30px;
       font-size: 17px;
       display: flex;
@@ -68,14 +68,14 @@
       }
     }
   }
-  #bottom-bottom {
+  &--bottom {
     color: grey;
     display: flex;
     justify-content: space-between;
     background-color: black;
     font-size: 12px;
     height: 80px;
-    #left {
+    &--left {
       width: 60%;
       ul {
         position: relative;
@@ -90,14 +90,14 @@
         }
       }
     }
-    #right {
+    &--right {
       width: 20px;
       span {
         position: relative;
         left: 70%;
         top: 20%;
       }
-      #right-top {
+      &--top {
         display: flex;
         align-items: center;
         p,li {

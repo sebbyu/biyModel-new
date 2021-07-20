@@ -13,17 +13,17 @@ function App() {
   }
   const routerPages = useRoutes(routes);
   return (
-    <div className="page">
-      <div className="navbar">
-        <div className="navbar-wrap">
+    <div className="app-main">
+      <div className="app-main--navbar">
+        <div className="app-main--navbar-wrap">
           <Navbar />
         </div>
       </div>
-      <div className="main">
+      <div className="app-main--main">
         {routerPages || <Page404 />}
       </div>
-      <div className="footer">
-        <div className="footer-wrap">
+      <div className="app-main--footer">
+        <div className="app-main--footer-wrap">
           <Footer />
         </div>
       </div>

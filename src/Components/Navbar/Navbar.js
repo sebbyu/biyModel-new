@@ -3,18 +3,18 @@ import "./Navbar.scss";
 function Navbar(props) {
   
   return (
-    <div className="navbar">
-      <div className="logo_bar">
+    <div className="navbar-main">
+      <div className="navbar-main--logo_bar">
         {/* eslint-disable-next-line */}
         <a className="fas fa-brain" id="logo" href='/'></a>
       </div>
-      <div className="nav_bar">
+      <div className="navbar-main--navigation_bar">
         <a href="/comingsoon" id="element"><li>Learn</li></a>
         <a href="/comingsoon" id="element"><li>Build</li></a>
         <a href="/comingsoon" id="element"><li>Help</li></a>
       </div>
-      <div className="login_bar">
-        <div className="bag">
+      <div className="navbar-main--login_bar">
+        <div className="navbar-main--login_bar-bag">
           <li className="fas fa-sign-in-alt">
             <p id="tooltip">Sign-In</p>
           </li>

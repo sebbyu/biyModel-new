@@ -1,23 +1,23 @@
-.page {
-  .navbar {
+.app-main {
+  &--navbar {
     background-color: black;
     color: white;
-    .navbar-wrap {
+    &-wrap {
       width: 90vw;
       padding: 0 50px;
       background-color: black;
       color: white;
     }
   }
-  .main {
+  &--main {
     background: linear-gradient(rgba(0,0,0,0.5),(rgba(0,0,0,0.7))), url('https://wallpapercave.com/wp/wp6690886.jpg') repeat;
     min-height: 90vh;
     background-size: 100% 100%;
   }
-  .footer {
+  &--footer {
     background-color: black;
     color: white;
-    .footer-wrap {
+    &-wrap {
       width: 1200px;
       margin: 0 auto;
       background-color: black;
