@@ -3,12 +3,12 @@ import './Footer.scss';
 function Footer(props) {
   return (
     <div className="footer-main">
-      <div className="footer-main--top" id="top">
-        <div className="footer-main--top--logo" id="logo">
+      <div className="footer-main--top">
+        <div className="footer-main--top--logo">
           <p class="fas fa-brain"></p>
           <p>BIYM</p>
         </div>
-        <div className="footer-main--top--info" id="info">
+        <div className="footer-main--top--info">
           <ul>
             <p id="little-title">COMPANY</p>
             <li>About</li>
@@ -29,13 +29,13 @@ function Footer(props) {
             <li>Free Mobile App</li>
           </ul>
         </div>
-        <div className="footer-main--top--social-media" id="social-media">
+        <div className="footer-main--top--social_media">
           <p className="fab fa-facebook-f"></p>
           <p className="fab fa-instagram"></p>
           <p className="fab fa-twitter"></p>
         </div>
       </div>
-      <div className="footer-main--bottom" id="bottom">
+      <div className="footer-main--bottom">
         <div className="footer-main--bottom--left">
           <ul>
             <li>Legal</li>
@@ -46,11 +46,11 @@ function Footer(props) {
           </ul>
         </div>
         <div className="footer-main--bottom--right">
-          <span className="footer-main--bottom--right--top" id="right-top">
+          <span className="footer-main--bottom--right--top">
             <p>USA</p>
             <li className="fas fa-flag-usa"></li>
           </span>
-          <span className="footer-main--bottom--right--bottom" id="right-bottom">
+          <span className="footer-main--bottom--right--bottom">
             <p>CopyRight</p>
           </span>
         </div>
