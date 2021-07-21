@@ -7,9 +7,8 @@ import jsonContents from './LearningContent/contents.json';
 const Learn = () => {
   var contents = jsonContents.map(x => {
     return (
-      <li>
+      <li key={x.id}>
         <LearningContent 
-          key={x.id}
           title={x.title}
           link_title={x.link_title}
           link={x.link}
@@ -36,20 +35,31 @@ const Learn = () => {
           <div className="learn-main-frame--mid-info">
             <Textbox 
               title="Mission"
-              text="BIY&reg;"
+              text="BIY&reg; We aim to improve efficiency 
+              and patient outcomes by empowering healthcare 
+              professionals with deep learning technologies 
+              in medical imaging."
             />
             <Textbox 
               title="Vision"
-              text="BIY&reg;"
+              text="BIY&reg; We envision the expansion of 
+              AI-enabled healthcare expertise globally, so 
+              patients around the world can benefit from fast 
+              and accurate diagnosis and treatment."
             />
           </div>
         </div>
         <div className="learn-main-frame--bottom">
           <div className="learn-main-frame--bottom-frame">
-            {/* <h2>More about Machine Learning</h2>
-            <ul>
-              {contents}
-            </ul> */}
+            <h1 className="learn-main-frame--bottom-frame--title">
+              More about Machine Learning
+            </h1>
+            <div className='learn-main-frame--bottom-frame--lists'>
+              <ul id="contents-lists">
+                {contents}
+              </ul>
+            </div>
+            
           </div>
         </div>
       </div>

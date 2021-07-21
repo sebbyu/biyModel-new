@@ -3,11 +3,12 @@ import './LearningContent.scss';
 const LearningContent = (props) => {
   return (
     <div className="learning_content-main">
-      <div className="learning_content-main-frame">
-        <h3 id="title">{props.title}</h3>
-        <a id="link" href={props.link}>{props.link_title}</a>
-        <img src={props.img_src} alt="not found" />
-      </div>
+      <a href={props.link}>
+        <div className="learning_content-main-frame">
+          <h5 id="learning_content-title">{props.title}</h5>
+          <img id="learning_content-image" src={props.img_src} alt="not found" />
+        </div>
+      </a>
     </div>
   )
 }

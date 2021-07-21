@@ -29,10 +29,26 @@
       &-info {
         display: flex;
         justify-content: space-evenly;
+        margin: 20px 0;
       }
       
     }
     &--bottom {
+      &-frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--title {
+          color: white;
+          font-family: serif;
+        }
+        &--lists {
+          min-width: 80%;
+          #contents-lists {
+            display: flex;
+          }
+        }
+      }
       
     }
   }
