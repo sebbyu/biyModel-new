@@ -10,5 +10,17 @@
     "title": "All Machine Learning Models Explained in 6 Minutes",
     "link": "https://towardsdatascience.com/all-machine-learning-models-explained-in-6-minutes-9fe30ff6776a",
     "img_src": "https://miro.medium.com/max/1400/1*W5ia8bYCS3ZW3LXxU7wSTQ.png"
+  },
+  {
+    "id": 3,
+    "title": "Machine Learning",
+    "link": "https://www.geeksforgeeks.org/machine-learning/",
+    "img_src": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/machineLearning3.png"
+  },
+  {
+    "id": 4,
+    "title": "Add New...",
+    "link": "https://www.geeksforgeeks.org/machine-learning/",
+    "img_src": "https://media.istockphoto.com/vectors/black-plus-sign-positive-symbol-vector-id688550958?k=6&m=688550958&s=170667a&w=0&h=Z_yYkQRrcThb37xWZ1i8U3yTb8gpSJI448e6KAATb44="
   }
 ]

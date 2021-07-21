@@ -11,7 +11,7 @@ function Navbar(props) {
       <div className="navbar-main--navigation_bar">
         <a href="/learn" id="element"><li>Learn</li></a>
         <a href="/comingsoon" id="element"><li>Build</li></a>
-        <a href="/comingsoon" id="element"><li>Help</li></a>
+        <a href="/help" id="element"><li>Help</li></a>
       </div>
       <div className="navbar-main--login_bar">
         <div className="navbar-main--login_bar-bag">

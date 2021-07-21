@@ -1,6 +1,7 @@
 import './Learn.scss';
-import about from './../../assets/about.png';
+import aboutImg from './../../assets/about.png';
 import Textbox from './Textbox/Textbox';
+import InfoHeader from './../InfoHeader/InfoHeader';
 import LearningContent from './LearningContent/LearningContent';
 import jsonContents from './LearningContent/contents.json';
 
@@ -21,15 +22,11 @@ const Learn = () => {
     <div className="learn-main">
       <div className="learn-main-frame">
         <div className="learn-main-frame--top">
-          <div className="learn-main-frame--top-background">
-            <div className="learn-main-frame--top-background--about">
-              <h2 id="about">ABOUT</h2>
-              <p id="description">BIY&reg;</p>
-            </div>
-            <div className="learn-main-frame--top-background--image">
-              <img src={about} alt="not found" />
-            </div>
-          </div>
+          <InfoHeader 
+            title="ABOUT"
+            text="BIY&reg;"
+            image_src={aboutImg}
+          />
         </div>
         <div className="learn-main-frame--mid">
           <div className="learn-main-frame--mid-info">
@@ -59,7 +56,6 @@ const Learn = () => {
                 {contents}
               </ul>
             </div>
-            
           </div>
         </div>
       </div>

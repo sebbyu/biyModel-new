@@ -1,0 +1,25 @@
+.infoheader-main {
+  &-frame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18, 17, 19);
+    height: 500px;
+    &--textbox {
+      padding: 20px;
+      border: 5px solid rgb(129, 125, 125);
+      color: white;
+      width: 800px;
+      height: 400px;
+      // &--title {
+
+      // }
+      &--text {
+        padding: 20px;
+      }
+    }
+    &--image {
+      opacity: 0.3;
+    }
+  }
+}
