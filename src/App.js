@@ -2,6 +2,7 @@ import './App.scss';
 import Home from './Components/Home/Home';
 import Page404 from './Components/Page404/Page404';
 import ComingSoon from './Components/ComingSoon/ComingSoon';
+import Learn from './Components/Learn/Learn';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
 import {useRoutes} from 'hookrouter';
@@ -10,6 +11,7 @@ function App() {
   const routes = {
     '/' : () => <Home />,
     '/comingsoon': () => <ComingSoon />,
+    '/learn': () => <Learn />,
   }
   const routerPages = useRoutes(routes);
   return (

@@ -9,7 +9,7 @@ function Navbar(props) {
         <a className="fas fa-brain" id="logo" href='/'></a>
       </div>
       <div className="navbar-main--navigation_bar">
-        <a href="/comingsoon" id="element"><li>Learn</li></a>
+        <a href="/learn" id="element"><li>Learn</li></a>
         <a href="/comingsoon" id="element"><li>Build</li></a>
         <a href="/comingsoon" id="element"><li>Help</li></a>
       </div>

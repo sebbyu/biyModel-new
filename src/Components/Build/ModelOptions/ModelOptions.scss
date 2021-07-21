@@ -1,10 +1,10 @@
-.main {
+.model_options-main {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  .frame {
-    .top {
+  &-frame {
+    &--top {
       #title {
         font-family: sans-serif;
         font-weight: bold;
@@ -14,9 +14,9 @@
         letter-spacing: 2px;
       }
     }
-    .bottom {
+    &--bottom {
       background-color: inherit;
-      .buttons {
+      &-buttons {
         #button {
           margin: 0 30px;
           outline: none;
