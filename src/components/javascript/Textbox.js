@@ -1,4 +1,4 @@
-import './Textbox.scss';
+import './../scss/Textbox.scss';
 
 const Textbox = (props) => {
   return (

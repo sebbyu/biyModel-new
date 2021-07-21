@@ -1,11 +1,14 @@
 import './App.scss';
-import Home from './Components/Home/Home';
-import Page404 from './Components/Page404/Page404';
-import ComingSoon from './Components/ComingSoon/ComingSoon';
-import Learn from './Components/Learn/Learn';
-import Navbar from './Components/Navbar/Navbar';
-import Footer from './Components/Footer/Footer';
-import Help from './Components/Help/Help';
+//components
+import Navbar from './components/javascript/Navbar';
+import Footer from './components/javascript/Footer';
+//views
+import Home from './views/javascript/Home';
+import Learn from './views/javascript/Learn';
+import Help from './views/javascript/Help';
+import Page404 from './views/javascript/Page404';
+import ComingSoon from './views/javascript/ComingSoon';
+//hooks
 import {useRoutes} from 'hookrouter';
 
 function App() {

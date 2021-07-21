@@ -1,4 +1,4 @@
-import "./Home.scss";
+import "./../scss/Home.scss";
 
 function Home() {
   return (

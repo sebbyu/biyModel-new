@@ -1,9 +1,11 @@
-import './Learn.scss';
+import './../scss/Learn.scss';
+//components
+import Textbox from './../../components/javascript/Textbox'
+import InfoHeader from './../../components/javascript/InfoHeader';
+import LearningContent from './../../components/javascript/LearningContent';
+//assets
 import aboutImg from './../../assets/about.png';
-import Textbox from './Textbox/Textbox';
-import InfoHeader from './../InfoHeader/InfoHeader';
-import LearningContent from './LearningContent/LearningContent';
-import jsonContents from './LearningContent/contents.json';
+import jsonContents from './../../assets/contents.json';
 
 const Learn = () => {
   var contents = jsonContents.map(x => {

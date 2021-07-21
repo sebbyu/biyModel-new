@@ -1,4 +1,4 @@
-import './InfoHeader.scss';
+import './../scss/InfoHeader.scss';
 
 const InfoHeader = (props) => {
   return (

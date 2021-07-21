@@ -1,4 +1,4 @@
-import "./Navbar.scss";
+import "./../scss/Navbar.scss";
 
 function Navbar(props) {
   

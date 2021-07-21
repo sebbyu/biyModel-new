@@ -1,4 +1,4 @@
-import './LearningContent.scss';
+import './../scss/LearningContent.scss';
 
 const LearningContent = (props) => {
   return (

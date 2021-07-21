@@ -1,5 +1,7 @@
-import "./Help.scss";
-import InfoHeader from './../InfoHeader/InfoHeader';
+import "./../scss/Help.scss";
+//components
+import InfoHeader from './../../components/javascript/InfoHeader';
+//assets
 import helpImage from './../../assets/help.png';
 
 const Help = () => {
