@@ -15,15 +15,15 @@ function Navbar(props) {
       </div>
       <div className="navbar-main--login_bar">
         <div className="navbar-main--login_bar-bag">
-          <li className="fas fa-sign-in-alt">
+          <a className="fas fa-sign-in-alt" href="/signin">
             <p id="tooltip">Sign-In</p>
-          </li>
-          <li className="fas fa-user-plus">
+          </a>
+          <a className="fas fa-user-plus" href="/signup">
             <p id="tooltip">Sign-Up</p>
-          </li>
-          <li className="fas fa-user-secret">
+          </a>
+          <a className="fas fa-user-secret" href="/comingsoon">
             <p id="tooltip">Guest</p>
-          </li>
+          </a>
         </div>
       </div>
     </div>

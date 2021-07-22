@@ -1,0 +1,17 @@
+.social_media_signin-main {
+  &-frame {
+    margin: 5px;
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    &-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: Gill Sans, sans-serif;
+    } 
+  }
+}

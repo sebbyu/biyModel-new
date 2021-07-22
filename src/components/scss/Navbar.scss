@@ -17,6 +17,9 @@
       &:hover {
         color: gold;
       }
+      a {
+        text-decoration: none;
+      }
     }
   }
   &--navigation_bar {
@@ -39,7 +42,8 @@
   &--login_bar {
     &-bag {
       float: right;
-      li {
+      a {
+        color: inherit;
         margin: 0 20px;
         cursor: pointer;
         transition: 0.2s ease;
@@ -53,7 +57,7 @@
           opacity: 0;
         }
       }
-      li {
+      a {
         &:hover {
           #tooltip {
             opacity: 1;
