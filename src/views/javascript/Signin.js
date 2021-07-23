@@ -13,7 +13,7 @@ const Signin = () => {
             <p>BIYM</p>
           </div>
         </div>
-        <hr/>
+        <hr id="hr_top"/>
         <div className="signin-main-frame--mid">
           <p>To continue, log in to BIYM</p>
           <div className="signin-main-frame--mid--social_media">
@@ -39,20 +39,20 @@ const Signin = () => {
           <p>----------------- OR -----------------</p>
           <div className="signin-main-frame--mid--signin_form">
             <form id="signin_form">
-              <label for="email">Email address</label>
+              <label for="email" id="label">Email address</label>
               <input type="email" id="email" name="email" 
                 placeholder="Email address"/><br/>
-              <label for="password">Password</label>
+              <label for="password" id="label">Password</label>
               <input type="password" id="password" name="password"
                 placeholder="Password" /><br/>
-              <input type="submit" value="Submit" id="submit_button"/>
-            
+              <input type="submit" value="LOG IN" id="login_button"/>
             </form>
           </div>
         </div>
+        <hr id="hr_bottom"/>
         <div className="signin-main-frame--bottom">
           <p>Don't have an account?</p>
-          <input className="signin-main-frame--bottom-signup" type='button'
+          <input className="signin-main-frame--bottom-signup_button" type='button'
             value="SIGN UP FOR BIYM" onsubmit="#" />
         </div>
       </div>

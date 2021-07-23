@@ -5,8 +5,9 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 15px;
+    font-weight: bold;
     &--top {
-      
       &-logo {
         display: flex;
         align-items: center;
@@ -14,7 +15,7 @@
         margin-top: 30px;
       }
     }
-    hr {
+    #hr_top {
       color: white;
       width: 100%;
       border-bottom: 1px solid rgba(255, 255, 255, 0.39);
@@ -23,6 +24,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      letter-spacing: 2px;
       &--social_media {
         display: flex;
         flex-direction: column;
@@ -36,17 +38,50 @@
         #signin_form {
           display: flex;
           flex-direction: column;
+          #email {
+            margin-bottom: -10px;
+          }
+          #email, #password {
+            border: none;
+            width: 400px;
+            height: 40px;
+          }
+          #label {
+            margin-bottom: -1px;
+          }
+          #login_button {
+            width: 150px;
+            height: 40px;
+            border-radius: 30px;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            border: none;
+            letter-spacing: 2px;
+            transition: 0.2s ease;
+            &:hover {
+              background-color: rgb(4, 190, 4);
+            }
+          }
         }
       }
-      
+    }
+    #hr_bottom {
+      width: 400px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.39);
     }
     &--bottom {
       display: flex;
       flex-direction: column;
       align-items: center;
-      // &-signup {
-
-      // }
+      letter-spacing: 2px;
+      &-signup_button {
+        padding: 8px 40px;
+        border-radius: 30px;
+        background-color: white;
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
     }
   }
 }
