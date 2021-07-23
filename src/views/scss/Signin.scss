@@ -33,6 +33,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        #signin_form {
+          display: flex;
+          flex-direction: column;
+        }
       }
       
     }

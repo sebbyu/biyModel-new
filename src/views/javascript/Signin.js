@@ -38,6 +38,16 @@ const Signin = () => {
           </div>
           <p>----------------- OR -----------------</p>
           <div className="signin-main-frame--mid--signin_form">
+            <form id="signin_form">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" 
+                placeholder="Email address"/><br/>
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password"
+                placeholder="Password" /><br/>
+              <input type="submit" value="Submit" id="submit_button"/>
+            
+            </form>
           </div>
         </div>
         <div className="signin-main-frame--bottom">
